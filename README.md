@@ -25,5 +25,11 @@ This project processes video frames to detect moving objects in real time. Multi
 ## Requirements
 Install dependencies:
 
-```bash
+bash
 pip install opencv-python numpy
+
+## Run
+Place your input video inside the `videos` folder and run:
+
+```bash
+python src/mtd.py
