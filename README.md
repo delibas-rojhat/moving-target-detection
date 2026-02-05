@@ -23,13 +23,14 @@ This project processes video frames to detect moving objects in real time. Multi
 - Output video generation with annotations
 
 ## Requirements
-Install dependencies:
-
-bash
-pip install opencv-python numpy
-
+Install dependencies: pip install opencv-python numpy
 ## Run
-Place your input video inside the `videos` folder and run:
+Place your input video inside the `videos` folder and run: python src/mtd.py
 
-```bash
-python src/mtd.py
+Output video will be written to the `outputs` folder.
+
+## Example Output
+Add an example frame or demo video output here for visualization.
+
+## Purpose
+This project was developed to gain practical experience in motion detection, video processing, and real-time computer vision pipeline design using OpenCV.
